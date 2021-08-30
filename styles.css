@@ -1,5 +1,51 @@
-#sname_1,
-#sname_2 {
+.nav {
+    height: 64px;
+    padding: 0 24px 0 24px;
+    display: block;
+    position: relative;
+}
+
+.nav .nav_left {
+    float: left;
+    height: 32px;
+}
+
+.nav .nav_right {
+    padding-top: 11px;
+    float: right;
+}
+
+.nav_right a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.nav #h_online,
+.nav #h_oncampus,
+.nav #h_company {
+    padding-right: 16px;
+}
+
+.nav_left #school_logo {
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+#academy_name {
+    position: relative;
+    left: 33px;
+    bottom: 30px;
+}
+
+#academy_name #name_1 {
+    color: black;
+}
+
+#academy_name #name_1,
+#academy_name #name_2 {
     font-family: 'Rampart One', cursive;
+    display: inline;
+
 }
 
